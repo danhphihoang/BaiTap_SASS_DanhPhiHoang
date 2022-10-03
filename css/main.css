@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-title {
+  margin-bottom: 70px;
+  text-align: center;
+  letter-spacing: 0.015rem;
+}
+
+header {
+  background-image: url(../Images/yellow_top_wave_01.png);
+  background-size: cover;
+  background-position: center bottom;
+}
+header #collapsibleNavbar .nav-link {
+  font-size: 13px;
+  padding: 0 50px 0 0;
+  color: #181818;
+  font-weight: 600;
+  transition: 0.5s;
+}
+header #collapsibleNavbar .nav-link::after {
+  content: " ";
+  display: block;
+  background-color: #b61984;
+  text-align: center;
+  height: 8px;
+  width: 8px;
+  margin-left: 40%;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.5s;
+}
+header #collapsibleNavbar .nav-link:hover {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b61984;
+}
+header #collapsibleNavbar .nav-link:hover::after {
+  transform: scale(1);
+}
+header .bntPage {
+  border-radius: 15px;
+  border: #b61984 solid 1px;
+  background-color: #b61984;
+  font-size: 13.5px;
+  color: white;
+  padding: 10px;
+  transition: all 0.5s;
+}
+header .bntPage p {
+  margin: 0;
+}
+header .bntPage:hover {
+  background-color: transparent;
+  color: #b61984;
+}
+header .contact__tabula .social__tabula a {
+  padding: 0 5px;
+  color: black;
+  transition: 0.3s;
+}
+header .contact__tabula .social__tabula a:hover {
+  color: #b61984;
+}
+header .navbar-toggler {
+  background-color: #b61984;
+}
+
+.carousel__tabula {
+  background-image: url(../Images/Violet_top_left_wave.png);
+  background-size: cover;
+  background-position: center bottom;
+}
+.carousel__tabula .carousel__content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #b61984;
+}
+.carousel__tabula .carousel__content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: black;
+}
+
+.contact {
+  background-image: url(../Images/accent_bottom_wave_01.png);
+  background-size: cover;
+  background-position: center bottom;
+}
+.contact .bntPage {
+  border-radius: 15px;
+  border: #b61984 solid 1px;
+  background-color: #b61984;
+  font-size: 13.5px;
+  color: white;
+  padding: 10px;
+  transition: all 0.5s;
+}
+.contact .bntPage p {
+  margin: 0;
+}
+.contact .bntPage:hover {
+  background-color: transparent;
+  color: #b61984;
+}
+
+footer {
+  background-image: url(../Images/footer_background.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+footer li {
+  list-style: none;
+  padding: 5px;
+}
+footer .social__tabula a {
+  padding: 0 5px;
+  color: black;
+  transition: 0.3s;
+}
+footer .social__tabula a:hover {
+  color: #b61984;
+}/*# sourceMappingURL=main.css.map */

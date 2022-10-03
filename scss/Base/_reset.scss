@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
+.section{
+    padding: $pd-4 0;
+}
+
+.section-title{
+    margin-bottom: $mg-3;
+    text-align: center;
+    letter-spacing: $ls-1;
+}

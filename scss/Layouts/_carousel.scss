@@ -1,0 +1,19 @@
+.carousel__tabula {
+    background-image: url(../Images/Violet_top_left_wave.png);
+        background-size: cover;
+        background-position: center bottom;
+    .carousel__content {
+
+        h3 {
+            font-size: $fs-3;
+            font-weight: $fw-2;
+            color: $color-pink-1;
+        }
+
+        h1 {
+            font-size: $fs-4;
+            font-weight: $fw-3;
+            color: $color-black-1;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+footer {
+    background-image: url(../Images/footer_background.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+    li {
+        list-style: none;
+        padding: $pd-3;
+    }
+    .social__tabula{
+        a {
+            padding: 0 $pd-3;
+            color: $color-black-1;
+            transition: 0.3s;
+
+            &:hover {
+                color: $color-pink-1;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.contact {
+    background-image: url(../Images/accent_bottom_wave_01.png);
+    background-size: cover;
+    background-position: center bottom;
+
+    .bntPage {
+        @include styleButton();
+    }
+}
